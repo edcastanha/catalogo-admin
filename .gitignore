@@ -1,0 +1,38 @@
+**/venv
+
+# Ignore the built-in Django cache
+__pycache__/
+ *.pyc
+
+# Ignore the Django admin documentation
+doc/
+
+# Ignore the temporary files created by Django's test runner
+.pytest_cache/ 
+
+# Ignore the local settings and secrets
+.env
+local_settings.py
+
+# Ignore any virtualenv environment and byte-compiled files
+**/__pycache__
+**/.venv
+**/venv
+**/env
+**/bin
+**/.egg-info
+**/pip-wheel-metadata
+
+ # Ignore any temporary files created by any text editor
+*~
+
+# Ignore any backup files created by IDEs or text editors
+*.bak
+*.swp
+
+# Ignore any OS-specific temporary files
+.DS_Store
+Thumbs.db
+
+
+**.log

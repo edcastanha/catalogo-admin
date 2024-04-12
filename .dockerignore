@@ -1,0 +1,26 @@
+# IDE e arquivos específicos do sistema
+.DS_Store
+. env*
+.venv*
+venv*
+.idea/
+.vscode/
+
+# Documentação gerada
+build/
+docs/ 
+htmlcov/
+
+# Pacotes Python
+*.egg
+*.egg-info
+dist/
+*.pyc
+
+# Logs
+*.log
+log/
+
+# Arquivos de banco de dados
+db.sqlite3
+.sqlite*
